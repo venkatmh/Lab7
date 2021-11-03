@@ -11,7 +11,7 @@ public class Counter implements ActionListener {
   Counter() {
     JFrame frame = new JFrame("Let's Count");
     frame.setLayout(new FlowLayout());
-	  frame.setSize(220,110);
+	  frame.setSize(200,110);
 
     JButton left = new JButton("Left");
 	  JButton right = new JButton("Right");
